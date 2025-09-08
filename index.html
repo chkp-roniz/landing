@@ -321,6 +321,19 @@
             animation: centralPulse 3s ease-in-out infinite;
         }
 
+        .avatar {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+
         @keyframes centralPulse {
             0%, 100% { 
                 box-shadow: 0 0 60px rgba(238, 12, 93, 0.5);
@@ -427,11 +440,11 @@
             </div>
 
             <div class="expertise">
-                <span class="expertise-item">Network Security</span>
-                <span class="expertise-item">Cloud Protection</span>
+                <span class="expertise-item">Security Architecture</span>
+                <span class="expertise-item">Cloud Security</span>
+                <span class="expertise-item">DevSecOps</span>
                 <span class="expertise-item">Threat Intelligence</span>
-                <span class="expertise-item">Zero Trust Architecture</span>
-                <span class="expertise-item">AI-Powered Defense</span>
+                <span class="expertise-item">Risk Management</span>
                 <span class="expertise-item">Incident Response</span>
             </div>
 
@@ -470,6 +483,7 @@
                     <div class="hex"></div>
                 </div>
                 <div class="central-icon">
+                    <img src="https://avatars.githubusercontent.com/u/35386615?v=4" alt="Ron Izraeli" class="avatar">
                     <svg class="shield-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 2L4 7V11.09C4 16.14 7.41 20.85 12 22C16.59 20.85 20 16.14 20 11.09V7L12 2Z" fill="currentColor"/>
                         <path d="M10 17L6 13L7.41 11.59L10 14.17L16.59 7.58L18 9L10 17Z" fill="#41273c"/>
